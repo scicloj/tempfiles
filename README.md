@@ -6,10 +6,9 @@ It allows to create a temporary files with a given extension (e.g., ".csv"), and
 
 By adopting this suggested URL, various tools such as Notespace can agree with various libraries such as Viz.clj on where temporary files should be placed.
 
-For example, Viz.clj will create a temporary file with some data to be passed for visualization, Notespace will serve it on its webserver, and Viz.clj will create a Vega specification which knows what URL to use for reading the file.
+For example, Viz.clj will create a temporary file with some data to be passed for visualization, Notespace will serve it on its webserver, and Viz.clj will create a Vega specification which knows what URL to use for reading the file, so that it can be viewed correctly in Notespace.
 
 ## Usage
-
 
 ## License
 
