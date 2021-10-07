@@ -1,4 +1,4 @@
-(defproject org.scicloj/tempfiles "0.1.0-SNAPSHOT"
+(defproject org.scicloj/tempfiles "1-alpha1"
   :description "A small library for handling temporary files to be served by a web server."
   :url "https://github.com/scicloj/tempfiles"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
