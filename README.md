@@ -1,5 +1,7 @@
 # tempfiles
 
+[![Clojars Project](https://img.shields.io/clojars/v/scicloj.org/tempfiles.svg)](https://clojars.org/scicloj.org/tempfiles)
+
 This is a small Clojure library for managing temporary files.
 
 It allows to create a temporary files with a given extension (e.g., ".csv"), and get not only its `path`, but a suggested standard `route` where it can be served relatively to a web app.
