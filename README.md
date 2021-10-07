@@ -1,6 +1,6 @@
 # tempfiles
 
-[![Clojars Project](https://img.shields.io/clojars/v/scicloj.org/tempfiles.svg)](https://clojars.org/scicloj.org/tempfiles)
+[![Clojars Project](https://img.shields.io/clojars/v/org.scicloj/tempfiles.svg)](https://clojars.org/org.scicloj/tempfiles)
 
 This is a small Clojure library for managing temporary files.
 
