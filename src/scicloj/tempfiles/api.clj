@@ -22,7 +22,7 @@
         (into-array FileAttribute []))
        (reset! *session-tempdir)))
 
-(defn session-tepmdir!
+(defn session-tempdir!
   "Get the temporary directory of the current session."
   []
   (-> @*session-tempdir
@@ -36,7 +36,7 @@
   [extension]
   (let [file ^File (File/createTempFile "file-"
                                    extension
-                                   (io/file (session-tepmdir!)))
+                                   (io/file (session-tempdir!)))
         path (.getPath file)
         [dir filename] (-> path
                            (string/split #"/"))]
