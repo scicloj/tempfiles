@@ -1,6 +1,7 @@
 (ns scicloj.tempfiles.api
   (:require [babashka.fs :as fs]
             [clojure.java.io :as io]
+            [clojure.java.shell]
             [clojure.string :as string])
   (:import [java.io File]
            [java.nio.file Files Path Paths]
