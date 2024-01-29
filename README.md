@@ -4,6 +4,12 @@
 
 This is a small Clojure library for managing temporary files.
 
+## The current use
+Currently, the library is being used, e.g., in [Clay](https://scicloj.github.io/clay/), mostly for managing paths of tempfiles.
+
+## The original goal
+In the past, the library has been used in [Notespace](https://github.com/scicloj/notespace) (which is not actively maintained as of 2024) for the following goal.
+
 It allows to create a temporary files with a given extension (e.g., ".csv"), and get not only its `path`, but a suggested standard `route` where it can be served relatively to a web app.
 
 By adopting these suggested `path` & `route`, various tools such as Notespace can agree with various libraries such as Viz.clj on where temporary files should be placed.
