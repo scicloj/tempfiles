@@ -15,7 +15,7 @@
             [deps-deploy.deps-deploy :as dd]))
 
 (def lib 'org.scicloj/tempfiles)
-(def version "1-alpha3")
+(def version "1-beta1")
 (def snapshot (str version "-SNAPSHOT"))
 (def class-dir "target/classes")
 
